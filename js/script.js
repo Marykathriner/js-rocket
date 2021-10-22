@@ -1,18 +1,7 @@
-/* //this function those this.
-var doCoolStuff = function () {
-	ElementById('cool').className;
-	// changing class name
-	if (currentClassName == 'cool') {
-		document.getElementById('cool').className = 'cool white';
-	} else {
-		document.getElementById('cool').className = 'cool';
-	}
-}
-*/
-
+// This function does this.
 var doCoolStuff = function () {
 	var currentClassName = document.getElementById('cool').className;
-
+	// changing elements by name
 	if (currentClassName == 'cool') {
 		document.getElementById('cool').className = 'cool white';
 	} else {

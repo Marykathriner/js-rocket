@@ -20,7 +20,7 @@ var changeState = function (state) {
 		}, 1000);
 	
 
-	} else if (state == 3) {
+	} else if (state == 5) {
 		var success = setTimeout(function ()
 			{
 				var randomNumber = Math.round(Math.random()*10);
